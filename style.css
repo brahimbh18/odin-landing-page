@@ -1,0 +1,161 @@
+body {
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    height: 50px;
+}
+#header-logo {
+    padding: 0px 100px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    
+}
+
+.header a, .section1 p{
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0px  100px;
+    color: white;
+}
+.section1 {
+    flex: 1;
+    display: flex;
+    padding: 100px 200px;
+    justify-content: center;
+    background-color: #1F2937;
+    
+}
+.section1 h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 1000;
+}
+
+
+.container {
+    padding: 32px;
+}
+img {
+    width: 700px;
+    height: 300px;
+}
+.section1 button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+.section2 {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    padding: 50px 200px;
+    align-items: center;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.section2 p {
+    text-align: center;
+    padding: 0 30px;
+}
+
+.section2 h2{
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+
+.container2 {
+    padding: 50px 400px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: burlywood;
+    border:5px solid brown;
+}
+.item {
+    font-size: 18px;
+}
+
+
+.section3 {
+    padding: 100px 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+}
+
+.section3 .text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+.author {
+    font-weight: bold;
+}
+
+.section4 {
+    background-color: aliceblue;
+    border-radius: 0 0 10px 10px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+.section4 button {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.last {
+    background-color: dodgerblue;
+    margin: 100px 275px ;
+    display: flex;
+    padding: 50px 150px;
+    justify-content: space-between;
+    border-radius: 7.5px;
+    color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    
+    height: 100px;
+}
+
+.footer p {
+    color: white;
+   text-align: center;
+   padding: 20px;
+}
